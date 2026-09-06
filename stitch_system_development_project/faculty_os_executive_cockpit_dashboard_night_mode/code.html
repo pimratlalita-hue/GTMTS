@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"inverse-on-surface":"#283044","slate-surface":"#111a2e","surface-container-highest":"#2d3449","surface-container-lowest":"#060e20","inverse-surface":"#dae2fd","secondary-fixed-dim":"#89ceff","on-secondary":"#00344d","on-primary-container":"#ffffff","rose-risk":"#f43f5e","secondary":"#38bdf8","surface-dim":"#0b1326","tertiary":"#4edea3","outline-variant":"#1e2d4a","surface-variant":"#162238","secondary-fixed":"#c9e6ff","primary-fixed-dim":"#ffb77d","surface-container-high":"#1e2a42","primary":"#38bdf8","surface-container":"#131d33","background":"#070d18","slate-text-muted":"#94a3b8","surface-bright":"#1e293b","slate-border-strong":"#334155","on-surface-variant":"#cbd5e1","surface":"#070d18","on-tertiary":"#003824","on-primary":"#ffffff","outline":"#475569","on-primary-fixed-variant":"#e2e8f0","on-error-container":"#ffdad6","navy-primary":"#1d4ed8","on-error":"#690005","navy-deep":"#0f172a","primary-container":"#2563eb","secondary-container":"#0284c7","primary-fixed":"#ffdcc3","error-container":"#4c0519","amber-light":"#f59e0b","on-primary-fixed":"#2f1500","sapphire-blue":"#38bdf8","on-tertiary-container":"#ecfdf5","slate-text-main":"#f8fafc","on-tertiary-fixed-variant":"#005236","error":"#fb7185","slate-border":"#1e293b","on-surface":"#f8fafc","surface-tint":"#38bdf8","tertiary-fixed-dim":"#4edea3","on-secondary-container":"#f0f9ff","rose-subtle":"rgba(244,63,94,0.15)","slate-surface-card":"#111a2e","emerald-subtle":"rgba(16,185,129,0.15)","inverse-primary":"#0284c7","on-tertiary-fixed":"#002113","amber-subtle":"rgba(245,158,11,0.15)","surface-container-low":"#0c1424","on-secondary-fixed":"#001e2f","tertiary-fixed":"#6ffbbe","emerald-success":"#10b981","amber-distinction":"#f59e0b","tertiary-container":"#059669","on-secondary-fixed-variant":"#004c6e"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-lg":"1.25rem","sidebar-expanded-width":"16rem","gutter-mobile":"1rem","space-base":"1rem","space-xl":"1.5rem","space-2xl":"2rem","space-xxs":"0.125rem","space-md":"0.75rem","space-3xl":"3rem","gutter-desktop":"1.5rem","sidebar-collapsed-width":"4.5rem","cockpit-max-width":"100rem","space-sm":"0.5rem","space-xs":"0.25rem"},"fontFamily":{"display-hero":["Inter"],"metric-kpi":["Inter"],"headline-sm":["Inter"],"headline-lg":["Inter"],"body-sm":["Inter"],"headline-md":["Inter"],"label-sm":["Inter"],"label-lg":["Inter"],"headline-lg-mobile":["Inter"],"label-md":["Inter"],"body-lg":["Inter"],"body-md":["Inter"]},"fontSize":{"display-hero":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.025em","fontWeight":"700"}],"metric-kpi":["2rem",{"lineHeight":"2.25rem","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-sm":["1.125rem",{"lineHeight":"1.5rem","fontWeight":"600"}],"headline-lg":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["0.75rem",{"lineHeight":"1.125rem","fontWeight":"400"}],"headline-md":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["0.6875rem",{"lineHeight":"0.875rem","letterSpacing":"0.03em","fontWeight":"600"}],"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg-mobile":["1.375rem",{"lineHeight":"1.75rem","letterSpacing":"-0.015em","fontWeight":"700"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.02em","fontWeight":"600"}],"body-lg":["1rem",{"lineHeight":"1.625rem","fontWeight":"400"}],"body-md":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-sapphire-blue/30 selection:text-white"><aside class="fixed left-0 top-0 h-full w-sidebar-expanded-width bg-surface-container-low z-50 flex flex-col border-r border-slate-border shadow-2xl shadow-black/40"><div class="h-16 flex items-center px-space-base gap-space-sm border-b border-slate-border/50"><div class="p-1 rounded bg-white/5 ring-1 ring-white/10 flex items-center justify-center"><img alt="Faculty OS Logo" class="h-7 w-auto object-contain brightness-110" src="https://lh3.googleusercontent.com/aida/AEtjO1USlRwsMXUqhY7-EgFugMo7wRaq7U2UvxO5hwyAQ41S6eHEOAITzMoQG52qBoCse8_gT3jJ_g8hKQs_1hSuLnkQYgS18oU1-Hd_GTt0-JCbgNSGwKhu8t4qaDLJvEgViygSGYGg30P9BaIfclDbZ7T05QEb4rpwb4iME0yg0z4Njqw7FVqQZWe7Te9gvz0CiCAkP3I1nJCFJPHDdrPA2GxcOiaVGYR05Wh2ZlUgMiGnA1EGH2kYY5kPJg"/></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-white leading-tight font-bold tracking-tight">Faculty OS</span><span class="font-label-sm text-label-sm text-slate-text-muted tracking-wider uppercase font-semibold">Academic Governance</span></div></div><div class="px-space-base py-space-sm"><div class="flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-high/60 border border-white/5 text-on-surface"><span class="material-symbols-outlined text-sapphire-blue text-[18px]">school</span><span class="font-label-sm text-label-sm font-semibold truncate text-slate-200">คณะวิทยาศาสตร์และเทคโนโลยี</span></div></div><nav class="flex-1 px-space-base py-space-sm overflow-y-auto space-y-space-xxs" data-active-classes="bg-primary-container text-white rounded-lg font-semibold shadow-lg shadow-blue-900/30"><div class="font-label-sm text-label-sm uppercase tracking-wider text-slate-400 px-space-sm py-space-xs font-semibold">การบริหารและยุทธศาสตร์</div><a aria-current="page" class="flex items-center gap-space-md px-space-md py-space-sm transition-all bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-semibold shadow-md shadow-blue-500/20 ring-1 ring-blue-400/30" data-path="executive-cockpit" href="#"><span class="material-symbols-outlined text-[20px] text-white">space_dashboard</span><span class="font-body-md text-body-md truncate">Executive Cockpit</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-slate-300 hover:bg-white/5 hover:text-white transition-colors" data-path="faculty-workload-tor" href="#"><span class="material-symbols-outlined text-[20px] text-slate-400">assignment_ind</span><span class="font-body-md text-body-md truncate">Faculty Workload &amp; TOR</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-slate-300 hover:bg-white/5 hover:text-white transition-colors" data-path="curriculum-obe-qa" href="#"><span class="material-symbols-outlined text-[20px] text-slate-400">verified</span><span class="font-body-md text-body-md truncate">Curriculum &amp; OBE QA</span></a><div class="pt-space-sm font-label-sm text-label-sm uppercase tracking-wider text-slate-400 px-space-sm py-space-xs font-semibold">กระบวนการและธรรมาภิบาล</div><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-slate-300 hover:bg-white/5 hover:text-white transition-colors" data-path="fast-track-e-workflow" href="#"><span class="material-symbols-outlined text-[20px] text-slate-400">account_balance_wallet</span><span class="font-body-md text-body-md truncate">Fast-Track E-Workflow</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-slate-300 hover:bg-white/5 hover:text-white transition-colors" data-path="student-early-warning" href="#"><span class="material-symbols-outlined text-[20px] text-slate-400">warning</span><span class="font-body-md text-body-md truncate">Student Early-Warning</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-lg text-slate-300 hover:bg-white/5 hover:text-white transition-colors" data-path="data-hub-integration" href="#"><span class="material-symbols-outlined text-[20px] text-slate-400">sync_alt</span><span class="font-body-md text-body-md truncate">Data Hub &amp; Integration</span></a></nav><div class="p-space-base bg-surface-container-low border-t border-slate-border/50"><div class="bg-surface-container-high/60 p-space-sm rounded-lg flex items-center justify-between border border-white/5"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-emerald-success text-[16px]">cloud_done</span><span class="font-label-sm text-label-sm text-slate-300">SIS / HRIS Synced</span></div><span class="font-label-sm text-label-sm text-slate-400 font-mono">10:42</span></div></div></aside><div class="pl-sidebar-expanded-width flex flex-col min-h-screen"><header class="fixed top-0 left-sidebar-expanded-width right-0 h-16 bg-surface-container-low/85 backdrop-blur-xl border-b border-slate-border shadow-md shadow-black/20 z-40 px-space-lg flex items-center justify-between"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs px-space-sm py-space-xxs rounded-full bg-surface-container-high border border-white/5 text-slate-200"><span class="material-symbols-outlined text-[16px] text-sapphire-blue">calendar_today</span><span class="font-label-sm text-label-sm font-semibold">ภาคการศึกษาที่ 2/2567</span></div><div class="relative flex items-center w-80"><span class="material-symbols-outlined absolute left-space-sm text-slate-400 text-[18px]">search</span><input class="w-full pl-9 pr-space-md py-space-xs bg-slate-surface rounded-md font-body-sm text-body-sm text-slate-text-main placeholder-slate-400 border border-slate-border focus:outline-none focus:border-sapphire-blue/60 focus:ring-1 focus:ring-sapphire-blue/60 transition-colors" placeholder="ค้นหาโครงการ, อาจารย์, รหัสวิชา, หรือ SAR..." type="search"/></div></div><div class="flex items-center gap-space-md"><button class="relative p-space-xs rounded-full hover:bg-surface-container-high text-slate-300 hover:text-white transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1 right-1 w-2.5 h-2.5 bg-rose-risk rounded-full ring-2 ring-surface-container-low shadow-[0_0_8px_rgba(244,63,94,0.6)]"></span></button><button class="p-space-xs rounded-full hover:bg-surface-container-high text-slate-300 hover:text-white transition-colors"><span class="material-symbols-outlined text-[22px]">help_outline</span></button><div class="h-6 w-px bg-slate-border"></div><div class="flex items-center gap-space-sm"><div class="flex flex-col text-right"><span class="font-label-lg text-label-lg font-bold text-white">ศ.ดร. ธนากร วิทยานุกูล</span><span class="font-label-sm text-label-sm text-slate-400">คณบดีคณะวิทยาศาสตร์ฯ</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-sapphire-blue/40 shadow" src="https://lh3.googleusercontent.com/aida/AEtjO1Vx_stQ25d8cOAzQbCyQRNy3zbHkVdw23SajAB8j8W0Od8GwVI3T1z_a9-pdsiRp9_R1BarpvybBoOUMlGBhVEC6IXeG7fgu4ztIIEZvp0EDWK-xcrRm9t1abEqIFJHBZkzagRSa39iW9hhjwBphwKA6W4PW1_8FufsYlEtoeI4O86ceS6YuxLeKC0X05hcg2bReyFDVHsvJ53fcMtNbU9YcLmSBuyCQjmH1YeTnz896cNy_nGZESsZ"/></div></div></header><main class="w-full pt-16 bg-surface flex-1"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow Background -->
+<div class="relative w-full px-space-lg py-space-xl space-y-space-xl overflow-hidden">
+<div class="absolute -top-32 -right-24 w-96 h-96 bg-sapphire-blue/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-96 -left-32 w-80 h-80 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Page Header & Action Controls -->
+<section class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-space-lg bg-surface-variant p-space-xl rounded-xl shadow-lg shadow-black/20 border border-slate-border relative">
+<div class="flex flex-col space-y-space-xs max-w-3xl">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high border border-white/5 text-slate-300 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-sapphire-blue">token</span>
+            MOD-04 Enterprise Executive Cockpit
+          </span>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-emerald-subtle border border-emerald-500/30 text-emerald-400 font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span>
+            Real-time Telemetry Active
+          </span>
+</div>
+<h1 class="font-display-hero text-headline-lg lg:text-display-hero text-white font-bold tracking-tight">
+          Executive Cockpit &amp; Central Governance
+        </h1>
+<p class="font-body-md text-body-md text-slate-300">
+          ภาคการศึกษาที่ 2/2567 • ข้อมูลรวมศูนย์ล่าสุด: ซิงค์จากระบบทะเบียนกลาง (SIS) และบุคคล (HRIS) อัตโนมัติเมื่อ 12 นาทีที่แล้ว
+        </p>
+</div>
+<!-- Action Cluster -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- Department Filter Pill Selector -->
+<div class="relative inline-block">
+<select class="appearance-none bg-slate-surface text-slate-200 font-label-lg text-label-lg pl-space-md pr-9 py-2 rounded-lg cursor-pointer hover:bg-surface-container-high border border-slate-border transition-colors focus:outline-none focus:border-sapphire-blue/60 focus:ring-1 focus:ring-sapphire-blue/60">
+<option class="bg-surface-variant text-slate-200" value="all">ทุกภาควิชา (All Departments)</option>
+<option class="bg-surface-variant text-slate-200" value="cpe">วิศวกรรมคอมพิวเตอร์ (Computer Eng.)</option>
+<option class="bg-surface-variant text-slate-200" value="ee">วิศวกรรมไฟฟ้า (Electrical Eng.)</option>
+<option class="bg-surface-variant text-slate-200" value="ie">วิศวกรรมอุตสาหการ (Industrial Eng.)</option>
+<option class="bg-surface-variant text-slate-200" value="me">วิศวกรรมเครื่องกล (Mechanical Eng.)</option>
+</select>
+<span class="material-symbols-outlined absolute right-space-sm top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none text-[18px]">expand_more</span>
+</div>
+<button class="inline-flex items-center gap-space-xs bg-white/5 hover:bg-white/10 text-slate-200 font-label-lg text-label-lg px-space-md py-2 rounded-lg transition-colors border border-white/10 shadow-sm">
+<span class="material-symbols-outlined text-sapphire-blue text-[18px]">sync</span>
+<span>ดึงข้อมูลอัปเดต (Batch Sync)</span>
+</button>
+<button class="inline-flex items-center gap-space-xs bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-label-lg text-label-lg px-space-md py-2 rounded-lg shadow-lg shadow-blue-900/30 ring-1 ring-blue-400/30 transition-all">
+<span class="material-symbols-outlined text-[18px]">ios_share</span>
+<span>Export รายงาน สกอ./อว.</span>
+</button>
+</div>
+</section>
+<!-- Top KPI Metric Cards (4-Column Bento Row) -->
+<section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-space-lg">
+<!-- Metric 1: Budget Encumbrance -->
+<div class="bg-slate-surface p-space-lg rounded-xl shadow-lg shadow-black/20 border border-slate-border flex flex-col justify-between hover:border-slate-border-strong hover:shadow-xl transition-all">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate-400">MOD-03 Fiscal Liquidity</span>
+<span class="font-headline-sm text-headline-sm text-white mt-0.5">งบประมาณรวมประจำปี</span>
+<span class="font-body-sm text-body-sm text-slate-400">Annual Faculty Budget</span>
+</div>
+<div class="p-space-xs rounded-lg bg-blue-500/15 border border-blue-400/20 text-sapphire-blue">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</div>
+</div>
+<div class="mt-space-md">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-kpi text-metric-kpi text-white tracking-tight font-bold">฿84.50</span>
+<span class="font-label-lg text-label-lg text-slate-400">ล้านบาท</span>
+</div>
+<!-- Tri-color Segmented Progress Bar -->
+<div class="w-full bg-slate-800/80 h-2.5 rounded-full mt-space-sm overflow-hidden flex ring-1 ring-white/5">
+<div class="bg-sapphire-blue h-full shadow-[0_0_8px_rgba(56,189,248,0.5)]" style="width: 54.2%;" title="เบิกจ่ายแล้ว 54.2%"></div>
+<div class="bg-amber-light h-full" style="width: 28.6%;" title="งบผูกพัน 28.6%"></div>
+<div class="bg-slate-700 h-full" style="width: 17.2%;" title="คงเหลือจัดสรร 17.2%"></div>
+</div>
+<div class="grid grid-cols-3 gap-space-xxs pt-space-sm font-label-sm text-label-sm">
+<div class="flex flex-col">
+<span class="text-slate-400 flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-sapphire-blue"></span>เบิกจ่าย</span>
+<span class="font-semibold text-slate-200 mt-0.5">54.2% (45.8M)</span>
+</div>
+<div class="flex flex-col">
+<span class="text-slate-400 flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-amber-light"></span>ผูกพัน</span>
+<span class="font-semibold text-amber-distinction mt-0.5">28.6% (24.2M)</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="text-slate-400">คงเหลือ</span>
+<span class="font-semibold text-emerald-400 mt-0.5">17.2% (14.5M)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Metric 2: TOR Assessment Progress -->
+<div class="bg-slate-surface p-space-lg rounded-xl shadow-lg shadow-black/20 border border-slate-border flex flex-col justify-between hover:border-slate-border-strong hover:shadow-xl transition-all">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate-400">MOD-01 Academic Workload</span>
+<span class="font-headline-sm text-headline-sm text-white mt-0.5">ความคืบหน้าประเมิน TOR</span>
+<span class="font-body-sm text-body-sm text-slate-400">Faculty TOR Cycle 1/2567</span>
+</div>
+<div class="p-space-xs rounded-lg bg-emerald-500/15 border border-emerald-400/20 text-emerald-400">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+</div>
+</div>
+<div class="mt-space-md">
+<div class="flex items-baseline justify-between">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-kpi text-metric-kpi text-white tracking-tight font-bold">88.5%</span>
+<span class="font-label-sm text-label-sm text-emerald-400 font-semibold flex items-center">
+<span class="material-symbols-outlined text-[14px]">arrow_upward</span>+6.2% YoY
+              </span>
+</div>
+<span class="font-label-sm text-label-sm text-slate-400 font-mono">78 / 88 ท่าน</span>
+</div>
+<div class="w-full bg-slate-800/80 h-2.5 rounded-full mt-space-sm overflow-hidden flex ring-1 ring-white/5">
+<div class="bg-emerald-success h-full shadow-[0_0_8px_rgba(16,185,129,0.5)]" style="width: 88.5%;"></div>
+<div class="bg-amber-light h-full" style="width: 8%;"></div>
+<div class="bg-rose-risk h-full" style="width: 3.5%;"></div>
+</div>
+<div class="flex items-center justify-between pt-space-sm font-label-sm text-label-sm">
+<span class="text-slate-400">ตรวจแล้ว 78 • รอตรวจ 7</span>
+<span class="inline-flex items-center gap-1 text-amber-400 font-semibold bg-amber-500/15 border border-amber-500/20 px-1.5 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">timer</span> ค้างยื่น 3 (อีก 5 วัน)
+            </span>
+</div>
+</div>
+</div>
+<!-- Metric 3: Research Output & Scopus -->
+<div class="bg-slate-surface p-space-lg rounded-xl shadow-lg shadow-black/20 border border-slate-border flex flex-col justify-between hover:border-slate-border-strong hover:shadow-xl transition-all">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-col">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate-400">Scholarly Impact</span>
+<span class="font-headline-sm text-headline-sm text-white mt-0.5">ผลงานตีพิมพ์ Scopus / สิทธิบัตร</span>
+<span class="font-body-sm text-body-sm text-slate-400">Research Output YTD</span>
+</div>
+</div>
+<div class="p-space-xs rounded-lg bg-indigo-500/15 border border-indigo-400/20 text-indigo-400">
+<span class="material-symbols-outlined text-[20px]">science</span>
+</div>
+</div>
+<div class="mt-space-md">
+<div class="flex items-baseline justify-between">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-kpi text-metric-kpi text-white tracking-tight font-bold">142</span>
+<span class="font-label-lg text-label-lg text-slate-400">ผลงาน</span>
+</div>
+<span class="inline-flex items-center gap-0.5 px-space-xs py-0.5 rounded bg-emerald-subtle border border-emerald-500/20 text-emerald-400 font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>+18.4%
+            </span>
+</div>
+<!-- Micro Sparkline SVG -->
+<div class="w-full h-7 mt-space-sm">
+<svg class="w-full h-full overflow-visible" preserveaspectratio="none" viewbox="0 0 160 28">
+<path class="text-sapphire-blue" d="M0 24 Q 25 18, 45 20 T 90 12 T 130 8 T 160 3" fill="none" stroke="currentColor" stroke-width="2.5"></path>
+<circle class="fill-sapphire-blue filter drop-shadow-[0_0_4px_#38bdf8]" cx="160" cy="3" r="3"></circle>
+</svg>
+</div>
+<div class="flex items-center justify-between pt-space-xs font-label-sm text-label-sm">
+<span class="text-slate-400">Tier Q1/Q2: 64%</span>
+<span class="font-semibold text-sapphire-blue">ทะลุ KPI คณะ 120%</span>
+</div>
+</div>
+</div>
+<!-- Metric 4: Student Early Warning Risks -->
+<div class="bg-slate-surface p-space-lg rounded-xl shadow-lg shadow-black/20 border border-slate-border flex flex-col justify-between hover:border-slate-border-strong hover:shadow-xl transition-all">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-slate-400">F04-02 Telemetry Alert</span>
+<span class="font-headline-sm text-headline-sm text-white mt-0.5">ดัชนีเตือนภัยนักศึกษา</span>
+<span class="font-body-sm text-body-sm text-slate-400">Early-Warning Retention Risk</span>
+</div>
+<div class="p-space-xs rounded-lg bg-rose-500/15 border border-rose-500/20 text-rose-risk">
+<span class="material-symbols-outlined text-[20px]">warning</span>
+</div>
+</div>
+<div class="mt-space-md">
+<div class="flex items-baseline justify-between">
+<div class="flex items-baseline gap-space-xs">
+<span class="font-metric-kpi text-metric-kpi text-rose-risk tracking-tight font-bold">34</span>
+<span class="font-label-lg text-label-lg text-slate-400">คนเสี่ยง</span>
+</div>
+<span class="font-label-sm text-label-sm text-rose-400 bg-rose-500/15 border border-rose-500/20 px-1.5 py-0.5 rounded font-semibold">
+              ระดับเสี่ยงสูง
+            </span>
+</div>
+<div class="w-full bg-slate-800/80 h-2.5 rounded-full mt-space-sm overflow-hidden flex ring-1 ring-white/5">
+<div class="bg-rose-risk h-full shadow-[0_0_8px_rgba(244,63,94,0.5)]" style="width: 52.9%;" title="ติด Pro สูง 18 คน"></div>
+<div class="bg-amber-light h-full" style="width: 47.1%;" title="ขาดเรียนซ้ำซ้อน 16 คน"></div>
+</div>
+<div class="flex items-center justify-between pt-space-sm font-label-sm text-label-sm">
+<span class="text-slate-400 flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-rose-risk"></span>ติด Pro 18 คน
+            </span>
+<span class="text-slate-400 flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-amber-light"></span>ขาดเรียน 16 คน
+            </span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Strategic Workspace (Asymmetric 7/12 & 5/12 Grid) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- LEFT COLUMN (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col space-y-space-xl">
+<!-- SECTION 1: Real-time Budget & Encumbrance (MOD-03 & MOD-04) -->
+<div class="bg-surface-variant rounded-xl shadow-lg shadow-black/20 border border-slate-border overflow-hidden">
+<div class="p-space-lg bg-surface-container/60 border-b border-slate-border flex items-center justify-between flex-wrap gap-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-white font-bold flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sapphire-blue text-[20px]">account_tree</span>
+                สถานะงบประมาณและการเบิกจ่ายโครงการตามพันธกิจ
+              </h2>
+<p class="font-body-sm text-body-sm text-slate-300">Real-time Encumbrance &amp; Disbursed Balance per Strategic Fund</p>
+</div>
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm">
+<span class="px-space-xs py-1 rounded bg-white/5 border border-white/10 text-slate-300 font-mono">FY2567 Q2</span>
+<button class="p-1 rounded hover:bg-white/10 text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+<!-- Tabular Presentation -->
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-low/80 text-slate-400 font-label-sm text-label-sm uppercase tracking-wider border-b border-slate-border">
+<tr>
+<th class="py-space-sm px-space-md">กองทุนยุทธศาสตร์ (Fund Name)</th>
+<th class="py-space-sm px-space-md text-right">งบจัดสรร</th>
+<th class="py-space-sm px-space-md text-right">เบิกจ่ายจริง</th>
+<th class="py-space-sm px-space-md text-right">ผูกพัน e-Workflow</th>
+<th class="py-space-sm px-space-md text-right">คงเหลือสุทธิ</th>
+<th class="py-space-sm px-space-md text-center">สัดส่วนใช้ไป</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-slate-border/50">
+<!-- Row 1: Research Fund -->
+<tr class="hover:bg-white/[0.03] transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center text-sapphire-blue">
+<span class="material-symbols-outlined text-[18px]">biotech</span>
+</div>
+<div>
+<div class="font-semibold text-white">กองทุนส่งเสริมงานวิจัยและนวัตกรรม</div>
+<div class="text-slate-400 font-label-sm text-label-sm">Research &amp; Innovation Fund</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md text-right font-mono font-medium text-slate-200">32,000,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-sapphire-blue font-semibold">18,500,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-amber-400">9,200,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-emerald-400 font-semibold">4,300,000</td>
+<td class="py-space-md px-space-md">
+<div class="w-24 mx-auto">
+<div class="flex justify-between font-label-sm text-label-sm text-slate-400 mb-1">
+<span>86.5%</span>
+</div>
+<div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden flex">
+<div class="bg-sapphire-blue h-full" style="width: 57.8%;"></div>
+<div class="bg-amber-light h-full" style="width: 28.7%;"></div>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 2: Curriculum QA Fund -->
+<tr class="hover:bg-white/[0.03] transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center text-sapphire-blue">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+</div>
+<div>
+<div class="font-semibold text-white">กองทุนพัฒนาหลักสูตร &amp; OBE QA</div>
+<div class="text-slate-400 font-label-sm text-label-sm">Curriculum Modernization Fund</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md text-right font-mono font-medium text-slate-200">18,500,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-sapphire-blue font-semibold">9,250,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-amber-400">5,100,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-emerald-400 font-semibold">4,150,000</td>
+<td class="py-space-md px-space-md">
+<div class="w-24 mx-auto">
+<div class="flex justify-between font-label-sm text-label-sm text-slate-400 mb-1">
+<span>77.5%</span>
+</div>
+<div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden flex">
+<div class="bg-sapphire-blue h-full" style="width: 50%;"></div>
+<div class="bg-amber-light h-full" style="width: 27.5%;"></div>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 3: Academic Services -->
+<tr class="hover:bg-white/[0.03] transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center text-sapphire-blue">
+<span class="material-symbols-outlined text-[18px]">handshake</span>
+</div>
+<div>
+<div class="font-semibold text-white">กองทุนบริการวิชาการถ่ายทอดเทคโนโลยี</div>
+<div class="text-slate-400 font-label-sm text-label-sm">Academic Services Fund</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md text-right font-mono font-medium text-slate-200">14,000,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-sapphire-blue font-semibold">6,800,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-amber-400">3,400,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-emerald-400 font-semibold">3,800,000</td>
+<td class="py-space-md px-space-md">
+<div class="w-24 mx-auto">
+<div class="flex justify-between font-label-sm text-label-sm text-slate-400 mb-1">
+<span>72.8%</span>
+</div>
+<div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden flex">
+<div class="bg-sapphire-blue h-full" style="width: 48.5%;"></div>
+<div class="bg-amber-light h-full" style="width: 24.3%;"></div>
+</div>
+</div>
+</td>
+</tr>
+<!-- Row 4: Equipment & Lab Infrastructure -->
+<tr class="hover:bg-white/[0.03] transition-colors">
+<td class="py-space-md px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center text-sapphire-blue">
+<span class="material-symbols-outlined text-[18px]">memory</span>
+</div>
+<div>
+<div class="font-semibold text-white">กองทุนครุภัณฑ์และห้องปฏิบัติการอัจฉริยะ</div>
+<div class="text-slate-400 font-label-sm text-label-sm">Advanced Lab &amp; Infra Fund</div>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md text-right font-mono font-medium text-slate-200">20,000,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-sapphire-blue font-semibold">11,250,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-amber-400">6,500,000</td>
+<td class="py-space-md px-space-md text-right font-mono text-emerald-400 font-semibold">2,250,000</td>
+<td class="py-space-md px-space-md">
+<div class="w-24 mx-auto">
+<div class="flex justify-between font-label-sm text-label-sm text-slate-400 mb-1">
+<span>88.7%</span>
+</div>
+<div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden flex">
+<div class="bg-sapphire-blue h-full" style="width: 56.2%;"></div>
+<div class="bg-amber-light h-full" style="width: 32.5%;"></div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="p-space-md bg-surface-container/60 border-t border-slate-border flex items-center justify-between text-body-sm text-slate-400">
+<span class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sapphire-blue text-[16px]">info</span>
+              ระบบผูกพันงบอัตโนมัติทันทีที่คณบดีเซ็นอนุมัติในระบบ e-Workflow (MOD-03)
+            </span>
+<a class="text-sapphire-blue hover:text-blue-300 font-label-sm text-label-sm font-semibold flex items-center" href="#">
+              รายงานงบประมาณจำแนกรายภาควิชา <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- SECTION 2: Student Early-Warning & Retention Cockpit (F04-02) -->
+<div class="bg-surface-variant rounded-xl shadow-lg shadow-black/20 border border-slate-border p-space-lg flex flex-col space-y-space-md">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-rose-risk animate-ping"></span>
+<h2 class="font-headline-sm text-headline-sm text-white font-bold">
+                  Student Early-Warning &amp; Retention Cockpit
+                </h2>
+</div>
+<p class="font-body-sm text-body-sm text-slate-300">
+                การแจ้งเตือนสัญญาณความเสี่ยงการตกออกและปัญหาผลลัพธ์การเรียนรู้ (F04-02 Real-time Intervention)
+              </p>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-400 font-label-sm text-label-sm font-semibold">
+              34 รายการต้องการดูแลด่วน
+            </span>
+</div>
+<!-- Actionable Student Alert Cards List -->
+<div class="flex flex-col space-y-space-sm">
+<!-- Student Alert 1 -->
+<div class="p-space-md rounded-lg bg-slate-surface border border-slate-border/80 hover:border-slate-border-strong hover:bg-surface-container transition-colors flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm ring-2 ring-rose-500/30 flex-shrink-0" data-alt="Official identification student portrait of a Southeast Asian male university undergraduate in crisp white engineering uniform looking focused and attentive against a soft slate studio background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuiXJ7ms5Nd86yFH267J58sq_Mznzq87ZyXQ0ID7y6nytVETMW4TdeddwJaSuBls0XMXtWT5gLPXKzJKmGTUN5Piav_wTN-6rg3p-yUTWEv04Ri9XzoeO-NOf6bTg-nF-gxD6ZllyM0eN4lYXlBqUBBrrrDVZqI80MWipBhUDPkCkB19H1sjygRMCJhZke989uXY0LL4WHHJ_i3UZupkDETXFOyTWhUcRXO5LoeC0l-um70jGgJlA"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-lg text-label-lg font-bold text-white">นายอานนท์ ภักดี</span>
+<span class="text-slate-400 font-body-sm text-body-sm">• รหัสนักศึกษา 65010482</span>
+<span class="px-space-xs py-0.5 rounded bg-rose-500/20 border border-rose-500/30 text-rose-400 font-label-sm text-label-sm font-semibold">
+                      ติด Pro สูง (Critical)
+                    </span>
+</div>
+<div class="font-body-sm text-body-sm text-slate-300 mt-0.5">
+                    ชั้นปีที่ 2 • ภาควิชาวิศวกรรมคอมพิวเตอร์ • อาจารย์ที่ปรึกษา: ศ.ดร.กิตติศักดิ์
+                  </div>
+<div class="mt-space-xs flex items-center gap-space-md text-body-sm text-rose-400 font-medium">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">trending_down</span> GPA สะสม: 1.82</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">event_busy</span> ขาดเรียนวิชาบังคับพื้นฐาน 3 ครั้ง</span>
+</div>
+</div>
+</div>
+<!-- Quick Execution Buttons -->
+<div class="flex items-center gap-space-xs flex-wrap md:flex-nowrap">
+<button class="px-space-sm py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-label-sm text-label-sm font-semibold transition-colors flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">forward_to_inbox</span>
+<span>ส่งให้อาจารย์ที่ปรึกษา</span>
+</button>
+<button class="px-space-sm py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 font-label-sm text-label-sm font-semibold transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">query_stats</span>
+<span>ดูผลลัพธ์ PLO/CLO</span>
+</button>
+</div>
+</div>
+<!-- Student Alert 2 -->
+<div class="p-space-md rounded-lg bg-slate-surface border border-slate-border/80 hover:border-slate-border-strong hover:bg-surface-container transition-colors flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm ring-2 ring-amber-500/30 flex-shrink-0" data-alt="Crisp professional student portrait of a young Southeast Asian female university student with gentle lighting, wearing clean collegiate uniform against a neat neutral gray background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGhNKrG56x__UeWFh5wc8eK1-ndbHnTFVF17mSSmNbD3gGpJcvKapPw3lFEQfCx_C7oLpCah3PZP_WiS5xT2ZwuW4J-6U4FRIhhcQ9gI37gg8Qgy9nN0uWcoQ--_IAY9TDxWUztTOqMLXUZgHu5Z7ig3JnVrSyL4CoOPlVupEdUs9L6b93OXPfpW_xhSKYVP8WHHXPMBCFMQgGFgJ5i3Rp8X6U4KFXk9jVqdXf3Ga_e15nBGMFRn4"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-lg text-label-lg font-bold text-white">น.ส.ปรียา สุทธิธรรม</span>
+<span class="text-slate-400 font-body-sm text-body-sm">• รหัสนักศึกษา 66010119</span>
+<span class="px-space-xs py-0.5 rounded bg-amber-500/20 border border-amber-500/30 text-amber-400 font-label-sm text-label-sm font-semibold">
+                      ค้างชำระ/ยังไม่ลงทะเบียน
+                    </span>
+</div>
+<div class="font-body-sm text-body-sm text-slate-300 mt-0.5">
+                    ชั้นปีที่ 1 • ภาควิชาวิศวกรรมไฟฟ้า • อาจารย์ที่ปรึกษา: รศ.ดร.สุนิสา
+                  </div>
+<div class="mt-space-xs flex items-center gap-space-md text-body-sm text-amber-400 font-medium">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">pending_actions</span> ยังไม่ยืนยันรายวิชาตามกำหนด (เหลือ 48 ชม.)</span>
+</div>
+</div>
+</div>
+<!-- Quick Execution Buttons -->
+<div class="flex items-center gap-space-xs flex-wrap md:flex-nowrap">
+<button class="px-space-sm py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-label-sm text-label-sm font-semibold transition-colors flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">notifications_active</span>
+<span>เตือนด่วนผ่าน LINE/SMS</span>
+</button>
+<button class="px-space-sm py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 font-label-sm text-label-sm font-semibold transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">contact_phone</span>
+<span>ติดต่อผู้ปกครอง</span>
+</button>
+</div>
+</div>
+<!-- Student Alert 3 -->
+<div class="p-space-md rounded-lg bg-slate-surface border border-slate-border/80 hover:border-slate-border-strong hover:bg-surface-container transition-colors flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-md">
+<img class="w-12 h-12 rounded-full object-cover shadow-sm ring-2 ring-white/10 flex-shrink-0" data-alt="Student profile photograph of an Asian male engineering university student wearing tidy white collared shirt with institutional lapel pin, calm confident expression." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNFMinRmE6UsznzU-oihgcVmA_wQSKOGiPAD9DLxdKeQFgbYjZ_iUWaZl_bg6L8TolJxz4vVJfgblGe-kT3iktz-i8WIClvv0WZAMz-PBZkxSF9IfjvxMoc3gnw3KUx4lhASaYsc0GqyR33l1C2M89ledcyhrhNFOzQnCNFl8-UyeATGJPJ-IUZeYgr2Emh9anLUwiF9Ai7-3g2KU0vbKm7Mz-2G_HP94sz6qiIsmKL3ndO_lFoWg"/>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="font-label-lg text-label-lg font-bold text-white">นายวรปรัชญ์ จินดา</span>
+<span class="text-slate-400 font-body-sm text-body-sm">• รหัสนักศึกษา 64010950</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high border border-white/10 text-slate-200 font-label-sm text-label-sm font-semibold">
+                      PLO Attainment Deficit
+                    </span>
+</div>
+<div class="font-body-sm text-body-sm text-slate-300 mt-0.5">
+                    ชั้นปีที่ 3 • ภาควิชาวิศวกรรมอุตสาหการ • อาจารย์ที่ปรึกษา: ผศ.สมชาย
+                  </div>
+<div class="mt-space-xs flex items-center gap-space-md text-body-sm text-slate-400">
+<span class="flex items-center gap-1 text-slate-300"><span class="material-symbols-outlined text-[16px] text-amber-400">report</span> เสี่ยงหลุดเกณฑ์การประเมิน CLO ในวิชาปฏิบัติการโรงงาน</span>
+</div>
+</div>
+</div>
+<!-- Quick Execution Buttons -->
+<div class="flex items-center gap-space-xs flex-wrap md:flex-nowrap">
+<button class="px-space-sm py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 font-label-sm text-label-sm font-semibold text-slate-200 shadow-sm transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span>เปิดดูประวัติรายวิชา</span>
+</button>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-body-sm text-body-sm text-slate-400">ข้อมูลถูกคำนวณผ่าน Predictive Retention Model ทุก 6 ชม.</span>
+<a class="font-label-sm text-label-sm text-sapphire-blue hover:text-blue-300 font-semibold flex items-center" href="#">
+              เปิดระบบ Student Retention Full Portal <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col space-y-space-xl">
+<!-- SECTION 1: Fast-Track E-Workflow & Pending Approvals (F03-02, F03-04) -->
+<div class="bg-surface-variant rounded-xl shadow-lg shadow-black/20 border border-slate-border p-space-lg flex flex-col space-y-space-md">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-sapphire-blue shadow-[0_0_8px_rgba(56,189,248,0.8)]"></span>
+<h2 class="font-headline-sm text-headline-sm text-white font-bold">
+                  Fast-Track E-Workflow Approvals
+                </h2>
+</div>
+<p class="font-body-sm text-body-sm text-slate-300">คำร้องและโครงการรอคณบดีอนุมัติตัดงบผูกพัน</p>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-blue-500/15 border border-blue-400/30 text-sapphire-blue font-label-sm text-label-sm font-bold">
+              3 รายการด่วน
+            </span>
+</div>
+<!-- Pending Item 1 -->
+<div class="p-space-md rounded-lg bg-slate-surface border border-slate-border/80 flex flex-col space-y-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-blue-500/15 border border-blue-400/20 flex items-center justify-center text-sapphire-blue font-bold font-headline-sm">
+                  นด
+                </div>
+<div>
+<h3 class="font-label-lg text-label-lg font-bold text-white">รศ.ดร. นภดล ธนกิจการุณย์</h3>
+<p class="font-body-sm text-body-sm text-slate-300">ขออนุมัติโครงการ: AI in Healthcare Diagnostic Core</p>
+</div>
+</div>
+<span class="font-mono font-bold text-label-lg text-white">฿350,000</span>
+</div>
+<div class="bg-surface-container-low/70 border border-white/5 p-space-xs rounded flex items-center justify-between text-body-sm">
+<span class="text-slate-400">แหล่งงบ: <strong class="text-slate-200">กองทุนวิจัย</strong></span>
+<span class="text-emerald-400 font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> ยอดคงเหลือรองรับได้
+              </span>
+</div>
+<!-- Visual Stepper Progress -->
+<div class="py-space-xs">
+<div class="flex items-center justify-between text-label-sm font-label-sm text-slate-400">
+<span class="text-emerald-400 flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px]">check</span>ภาควิชา</span>
+<span class="h-0.5 flex-1 mx-2 bg-emerald-500"></span>
+<span class="text-emerald-400 flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px]">check</span>งานคลัง</span>
+<span class="h-0.5 flex-1 mx-2 bg-emerald-500"></span>
+<span class="text-emerald-400 flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px]">check</span>รองคณบดี</span>
+<span class="h-0.5 flex-1 mx-2 bg-sapphire-blue"></span>
+<span class="text-sapphire-blue font-bold flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px] animate-spin">sync</span>คณบดี</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs pt-space-xxs">
+<button class="flex-1 py-2 px-space-sm bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white rounded-lg font-label-sm text-label-sm font-semibold transition-all shadow-md shadow-blue-900/30 ring-1 ring-blue-400/30 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px]">approval</span>
+<span>อนุมัติพร้อมกันงบ (Encumber)</span>
+</button>
+<button class="py-2 px-space-sm bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 rounded-lg font-label-sm text-label-sm font-semibold transition-colors">
+                ขอข้อมูลเพิ่ม
+              </button>
+</div>
+</div>
+<!-- Pending Item 2 -->
+<div class="p-space-md rounded-lg bg-slate-surface border border-slate-border/80 flex flex-col space-y-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-blue-500/15 border border-blue-400/20 flex items-center justify-center text-sapphire-blue font-bold font-headline-sm">
+                  ศศ
+                </div>
+<div>
+<h3 class="font-label-lg text-label-lg font-bold text-white">ผศ.ดร. ศศิธร เจริญผล</h3>
+<p class="font-body-sm text-body-sm text-slate-300">ขออนุมัติจัดประชุมนานาชาติ IEEE ICSEE 2024</p>
+</div>
+</div>
+<span class="font-mono font-bold text-label-lg text-white">฿180,000</span>
+</div>
+<div class="bg-surface-container-low/70 border border-white/5 p-space-xs rounded flex items-center justify-between text-body-sm">
+<span class="text-slate-400">แหล่งงบ: <strong class="text-slate-200">กองทุนบริการวิชาการ</strong></span>
+<span class="text-emerald-400 font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> ยอดคงเหลือรองรับได้
+              </span>
+</div>
+<div class="flex items-center gap-space-xs pt-space-xxs">
+<button class="flex-1 py-2 px-space-sm bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white rounded-lg font-label-sm text-label-sm font-semibold transition-all shadow-md shadow-blue-900/30 ring-1 ring-blue-400/30 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px]">done</span>
+<span>อนุมัติโครงการ</span>
+</button>
+<button class="py-2 px-space-sm bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 rounded-lg font-label-sm text-label-sm font-semibold transition-colors">
+                ตรวจสอบสายอนุมัติ
+              </button>
+</div>
+</div>
+</div>
+<!-- SECTION 2: OBE & AUN-QA Quality Attainment Index (MOD-02) -->
+<div class="bg-surface-variant rounded-xl shadow-lg shadow-black/20 border border-slate-border p-space-lg flex flex-col space-y-space-md">
+<div class="flex items-start justify-between">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sapphire-blue text-[20px]">verified</span>
+<h2 class="font-headline-sm text-headline-sm text-white font-bold">
+                  OBE &amp; AUN-QA Quality Index
+                </h2>
+</div>
+<p class="font-body-sm text-body-sm text-slate-300">ความพร้อม มคอ.3 / มคอ.5 และการบรรลุ PLO คณะ</p>
+</div>
+<span class="font-metric-kpi text-headline-md text-sapphire-blue font-bold">92%</span>
+</div>
+<!-- มคอ. Delivery Status Pill -->
+<div class="p-space-sm rounded-lg bg-slate-surface border border-slate-border/80 flex items-center justify-between text-body-sm">
+<span class="text-slate-400">ความพร้อมส่ง มคอ.3 / มคอ.5 รอบนี้:</span>
+<span class="font-bold text-white">148 / 160 รายวิชา (92.5%)</span>
+</div>
+<!-- PLO Competency Multi-Progress Bars -->
+<div class="space-y-space-sm pt-space-xs">
+<div>
+<div class="flex justify-between font-label-sm text-label-sm mb-1">
+<span class="text-slate-200 font-semibold">PLO 1: ทักษะวิชาชีพเชิงลึก (Professional Skill)</span>
+<span class="text-sapphire-blue font-bold">86%</span>
+</div>
+<div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+<div class="bg-sapphire-blue h-full shadow-[0_0_6px_rgba(56,189,248,0.5)]" style="width: 86%;"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-sm text-label-sm mb-1">
+<span class="text-slate-200 font-semibold">PLO 2: การคิดวิเคราะห์และการแก้ปัญหาซับซ้อน</span>
+<span class="text-sapphire-blue font-bold">79%</span>
+</div>
+<div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+<div class="bg-sapphire-blue h-full shadow-[0_0_6px_rgba(56,189,248,0.5)]" style="width: 79%;"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-sm text-label-sm mb-1">
+<span class="text-slate-200 font-semibold">PLO 3: จริยธรรม วิชาการ &amp; Soft Skills</span>
+<span class="text-emerald-400 font-bold">91%</span>
+</div>
+<div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+<div class="bg-emerald-success h-full shadow-[0_0_6px_rgba(16,185,129,0.5)]" style="width: 91%;"></div>
+</div>
+</div>
+</div>
+<div class="pt-space-xs flex justify-between items-center text-body-sm text-slate-400">
+<span class="font-label-sm text-label-sm">เกณฑ์มาตรฐาน AUN-QA: ≥ 70%</span>
+<a class="font-label-sm text-label-sm text-sapphire-blue hover:text-blue-300 font-semibold" href="#">
+              ดู Matrix รายหลักสูตร →
+            </a>
+</div>
+</div>
+<!-- SECTION 3: Central Data Hub Sync Status (F04-03, F04-04) -->
+<div class="bg-surface-variant rounded-xl shadow-lg shadow-black/20 border border-slate-border p-space-lg flex flex-col space-y-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sapphire-blue text-[20px]">hub</span>
+<h2 class="font-headline-sm text-headline-sm text-white font-bold">
+                Central Data Hub Telemetry
+              </h2>
+</div>
+<span class="px-space-xs py-0.5 rounded bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 font-label-sm text-label-sm font-semibold">
+              All Connected
+            </span>
+</div>
+<div class="divide-y divide-slate-border/50 space-y-space-xs">
+<!-- SIS Stream -->
+<div class="flex items-center justify-between py-1 text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(16,185,129,0.8)]"></span>
+<span class="font-semibold text-slate-200">ระบบทะเบียนกลาง (SIS API)</span>
+</div>
+<span class="text-slate-400 font-mono font-label-sm text-label-sm">Sync: 08:30 น. (100% OK)</span>
+</div>
+<!-- HRIS Stream -->
+<div class="flex items-center justify-between py-1 text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(16,185,129,0.8)]"></span>
+<span class="font-semibold text-slate-200">ระบบทรัพยากรบุคคล (HRIS API)</span>
+</div>
+<span class="text-slate-400 font-mono font-label-sm text-label-sm">Sync: 09:15 น. (100% OK)</span>
+</div>
+<!-- Scopus API Stream -->
+<div class="flex items-center justify-between py-1 text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_6px_rgba(16,185,129,0.8)]"></span>
+<span class="font-semibold text-slate-200">Scopus &amp; SciVal Elsevier API</span>
+</div>
+<span class="text-slate-400 font-mono font-label-sm text-label-sm">Sync: 04:00 น. (Nightly)</span>
+</div>
+</div>
+<!-- Emergency Ingestion Fallback Button -->
+<div class="pt-space-xs">
+<button class="w-full py-2 px-space-sm bg-white/5 hover:bg-white/10 border border-white/10 text-slate-200 rounded-lg font-label-sm text-label-sm font-semibold transition-colors flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-amber-400">upload_file</span>
+<span>อัปโหลดฉุกเฉิน CSV Ingestion (Offline Fallback)</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-low border-t border-slate-border py-space-md px-space-lg"><div class="w-full flex flex-col md:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-slate-400"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-emerald-400 text-[16px]">verified_user</span><span>ความสมบูรณ์ของระบบการบันทึก Audit Log: 100% Verified (SHA-256)</span></div><div class="flex items-center gap-space-md"><span>อัปเดตระบบล่าสุด: 24 ต.ค. 2567, 10:45 น. (UTC+7)</span><span>© 2024 Faculty OS. มหาวิทยาลัยนวัตกรรมวิชาการ. สงวนลิขสิทธิ์.</span></div></div></footer></div></body></html>
